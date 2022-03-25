@@ -10,162 +10,162 @@ background:  #757575; - secondary text color
 */
 
 :root {
-    --primary-text-color: #212121;
-    --secondary-text-color: #757575;
-    --primary-bgc-color: #FFFFFF;
-    --accent-color: #2196F3;
-    --accent-bg-color: #2F303A;
-    }
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-bgc-color: #ffffff;
+  --accent-color: #2196f3;
+  --accent-bg-color: #2f303a;
+}
 
 body {
-    background-color: var(--primary-bgc-color);
-    color: #212121;
+  background-color: var(--primary-bgc-color);
+  color: #212121;
 
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
 .logo {
-    color: #000000;
-    
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
+  color: #000000;
 
-    text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
 }
 
 .web {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .studio {
-    color: #fff;
+  color: #fff;
 }
-
 
 ul {
-    list-style: none;
+  list-style: none;
 }
-.nav-list, .contacts {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+.nav-list,
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
-.nav-list .link{
-    color: var(--primary-text-color);
-    text-decoration: none;
+.nav-list .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.nav-list .link.current {
+  color: var(--accent-color);
 }
 
 .contacts .link {
-    color: var(--secondary-text-color);
-    text-decoration: none;
+  color: var(--secondary-text-color);
+  text-decoration: none;
 }
 
 .link:hover,
 .link:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .hero {
-    background-color: var(--accent-bg-color);
+  background-color: var(--accent-bg-color);
 }
 .button {
-background-color: var(--accent-color);
-color: #fff;
+  background-color: var(--accent-color);
+  color: #fff;
 
-font-weight: 700;
-font-size: 16px;
-line-height: 1.9;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
 
-text-align: center;
-letter-spacing: 0.06em;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 h1 {
-    color: #fff;
+  color: #fff;
 
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.37;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
 
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .uniqenes {
-font-weight: 700;
-font-size: 14px;
-line-height: 1.1;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .uniqenes-line {
-color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
 
-font-weight: 400;
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team {
-    background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .names {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.2;
-letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .prof {
-color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
 
-font-weight: 400;
-font-size: 16px;
-line-height: 1.2;
-letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .site-footer {
-    background-color: var(--accent-bg-color);
+  background-color: var(--accent-bg-color);
 }
 
 .addres-nav .link {
-    color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .addres-nav .link:hover,
 .addres-nav .link:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .map {
-    color: #fff;
+  color: #fff;
 }
 .map:hover,
 .map:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }

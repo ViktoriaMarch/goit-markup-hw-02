@@ -1,0 +1,139 @@
+/* main colors 
+
+background: #FFFFFF;- основний колір фону
+background: #F5F4FA; - додатковий колір фону
+background: #2F303A; - accent колір фону
+color: #212121; - key color of text
+background: #2196F3; - hover color
+background: #FFFFFF; - third-class text color
+background:  #757575; - secondary text color
+*/
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-bgc-color: #ffffff;
+  --accent-color: #2196f3;
+  --accent-bg-color: #2f303a;
+}
+
+body {
+  background-color: var(--primary-bgc-color);
+  color: #212121;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+.logo {
+  color: #000000;
+
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
+}
+
+.web {
+  color: var(--accent-color);
+}
+
+.studio {
+  color: #fff;
+}
+
+.nav-list,
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-list .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.nav-list .link.current {
+  color: var(--accent-color);
+}
+
+.contacts .link {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.btn {
+  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.progect {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.progect-name {
+  color: var(--secondary-text-color);
+
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
+.site-footer {
+  background-color: var(--accent-bg-color);
+}
+
+.addres-nav .link {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
+}
+
+.map {
+  color: #ffffff;
+}
+
+.addres-nav .link:hover,
+.addres-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.map:hover,
+.map:focus {
+  color: var(--accent-color);
+}
